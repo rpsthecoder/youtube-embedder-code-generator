@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>YouTube Video Embed Code Generator</title>
+        <script src='script.js' defer></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>YouTube Video Embed Code Generator</h1>
+        <form>
+        	<table>
+        		<tr>
+        			<td colspan=2>
+        				<label for=vid-url>Video URL&nbsp;</label>
+			            <input id=vid-url type=text>
+        			</td>
+        		</tr>
+        		<tr>
+        			<td><label for=vid-yticon >Remove YouTube icon from player</label></td>
+        			<td><input id=vid-yticon type=checkbox value='&modestbranding=1'></td>
+        		</tr>
+        		<tr>
+        			<td><label for=vid-showcc >Show Closed Captions [CC]</label></td>
+        			<td><input id=vid-showcc type=checkbox value='&cc_load_policy=1'></td>
+        		</tr>
+        		<tr>
+        			<td><label for=vid-annot >Hide video annotations</label></td>
+        			<td><input id=vid-annot type=checkbox value='&iv_load_policy=3'></td>
+        		</tr>
+        		<tr>
+        			<td><label for=vid-annot >Don't show related videos after playback</label></td>
+        			<td><input id=vid-annot type=checkbox value='&rel=0'></td>
+        		</tr>
+        		<tr>
+        			<td colspan=2>
+        				<button id=generate-btn>Generate</button>
+			            <button type=reset>Reset</button>
+			            <button id=selectall-btn>Select All</button>
+        			</td>
+        		</tr>
+        	</table>
+        </form>
+        <div>
+        	<label><b>Code Generated</b>:</label><br><output>Nil.</output>
+        </div>
+    </body>
+
+</html>

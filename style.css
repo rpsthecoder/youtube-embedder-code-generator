@@ -1,0 +1,46 @@
+@font-face{
+	font-family: 'Crimson Text';
+	src: url('CrimsonText.ttf');
+}
+html,
+button,
+input {
+	font-family: 'Crimson Text', georgia, serif;
+	font-size: 14pt;
+}
+div{
+	margin: auto;
+	width: 680px;
+}
+h1 {
+	text-align: center;
+}
+button {
+	background-color: dodgerblue;
+	border: none;
+	color: white
+}
+table {
+	margin: auto;
+	width: 480px;
+	border-collapse: collapse;
+}
+tr{
+	height: 40px;
+}
+tr:last-child {
+	text-align: center;
+}
+tr:not(:last-child):not(:first-child) td:last-child {
+	text-align: right;
+
+}
+input[type='text'] {
+	width: 100%;
+	box-sizing: border-box;
+}
+input[type='checkbox'] {
+	height: 40px;
+	width: 40px;
+	margin: 0;
+}
