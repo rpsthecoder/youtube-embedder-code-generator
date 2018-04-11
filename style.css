@@ -39,11 +39,6 @@ input[type='text'] {
 	width: 100%;
 	box-sizing: border-box;
 }
-input[type='checkbox'] {
-	height: 40px;
-	width: 40px;
-	margin: 0;
-}
 .btn {
     background-color: #eee;
     background-image: linear-gradient(to bottom,#fcfcfc 0,#eee 100%);
